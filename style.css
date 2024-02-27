@@ -27,10 +27,13 @@ body {
 
 .commands {
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	width: 200px;
 	height: 800px;
 	border: 1px solid var(--gold);
 	grid-row-start: 1;
 	margin-left: 200px;
+	color: white;
 }
