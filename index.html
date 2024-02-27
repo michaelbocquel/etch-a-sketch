@@ -11,8 +11,15 @@
 <body>
 
 	<div class="commands">
+		<label for="pen-color">Choose your pen color :</label>
+		<input type="color" name="pen-color" id="pen-color" value="#ffd700">
+
 		<label for="grid-size-input" class="grid-size-input-label">Input your grid size :</label>
 		<input type="range" name="grid-size-input" id="grid-size-input" value="16" min="10" max="100">
+		<p class="grid-size-display"></p>
+
+		<p class="border-display"></p>
+		<button class="toggle-cell-borders-button">Toggle Cell Borders</button>
 
 		<button class="reset-grid-button">Reset Grid</button>
 	</div>
